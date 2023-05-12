@@ -6,9 +6,9 @@ class Calculator:
         return ## todo
 
     def multiply(self, x, y):
-        return ## todo
+        return x * y
 
     def divide(self, x, y):
         if y == 0:
             raise ValueError("Cannot divide by zero")
-        return ## todo
+        return x/y
